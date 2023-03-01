@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/******************************************Start Style Header (P,H1)************************************/
+header {
+    background-color: rgb(5, 145, 12);
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/******************************************Start Nav Style*******************************************/
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav {
+    background-color: rgb(4, 224, 15);
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+li {
+    padding: 10px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+
+a li:hover {
+    background-color: rgb(5, 145, 12);
+    color: #fff;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+a li:active {
+    color: #000;
+    background-color: rgb(4, 224, 15);
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
